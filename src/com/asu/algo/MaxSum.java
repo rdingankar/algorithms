@@ -14,8 +14,7 @@ public class MaxSum {
 			if(a[i+1] > a[i] ){
 				sum = sum + a[i];
 				if(Msum  < sum + a[i+1]){
-					Msum = sum + a[i+1];
-					
+					Msum = sum + a[i+1];	
 				}
 			}
 			else{
@@ -27,11 +26,8 @@ public class MaxSum {
 		System.out.println(Msum);
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		MaxSum a = new MaxSum();
 		a.run();
-
 	}
 
 }
